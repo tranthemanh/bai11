@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //cho nguoi dung nhap phan tu cua mang
+    let arr = [];
+    let n = +prompt("Nhap vao so luong phan tu cua mang");
+
+    for (let i = 0; i < n; i++) {
+        let pt = +prompt("Nhap vao phan tu " + (i + 1) + ":");
+        arr.push(pt);
+    }
+    // In ra cac phan tu co trong mang
+    document.write(arr+"<br>");
+
+    document.write(arr.reverse());
+
+
+</script>
+</body>
+</html>
